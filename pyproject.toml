@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "atcrl"
+version = "0.1.0"
+description = ""
+authors = ["Anton Leagre <anton.leagre@ugent.be>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+gym = "^0.26.2"
+numpy = "^1.24.0"
+pygame = "^2.1.2"
+matplotlib = "^3.6.2"
+torch = "^1.13.1"
+mujoco-py = "^2.1.2.14"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+black = "^22.12.0"
+mujoco = "^2.3.1.post1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
